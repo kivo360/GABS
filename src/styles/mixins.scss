@@ -1,0 +1,50 @@
+@mixin border-box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+%clearfix {
+    *zoom: 1;
+    &:before, 
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin box_shadow{
+    -webkit-box-shadow: 0px 3px 11px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:    0px 3px 11px 0px rgba(50, 50, 50, 0.3);
+    box-shadow:         0px 3px 11px 0px rgba(50, 50, 50, 0.3);
+}
+
+
+@mixin box_shadow($opacity, $x, $y){
+    -webkit-box-shadow: ($x * 1px) ($y * 1px) ($y * 1px) ($x * 1px) rgba(50, 50, 50, ($opacity * 0.1));
+    -moz-box-shadow:    ($x * 1px) ($y * 1px) ($y * 1px) ($x * 1px) rgba(50, 50, 50, ($opacity * 0.1));
+    box-shadow:         ($x * 1px) ($y * 1px) ($y * 1px) ($x * 1px) rgba(50, 50, 50, ($opacity * 0.1));
+}
+
+@mixin black-grade{
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin abs-pos{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+@mixin abs-pos-contain{
+    position: relative;
+}

@@ -1,0 +1,59 @@
+{
+  "name": "sass_workflow",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahat/hackathon-starter.git"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "debowerify": "^1.2.0"
+  },
+  "devDependencies": {
+    "angular": "*",
+    "babelify": "*",
+    "brfs": "*",
+    "browser-sync": "*",
+    "browserify": "*",
+    "browserify-istanbul": "*",
+    "browserify-ngannotate": "*",
+    "bulk-require": "*",
+    "bulkify": "*",
+    "chai": "*",
+    "colors": "*",
+    "del": "*",
+    "grunt": "*",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "*",
+    "gulp-cache": "*",
+    "gulp-changed": "*",
+    "gulp-concat": "*",
+    "gulp-gzip": "*",
+    "gulp-if": "*",
+    "gulp-jshint": "^1.10.0",
+    "gulp-livereload": "*",
+    "gulp-minify-css": "*",
+    "gulp-notify": "*",
+    "gulp-protractor": "*",
+    "gulp-rename": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-streamify": "*",
+    "gulp-util": "*",
+    "inquirer": "*",
+    "morgan": "*",
+    "mstring": "*",
+    "partialify": "*",
+    "pretty-hrtime": "*",
+    "protractor": "*",
+    "run-sequence": "*",
+    "supertest": "*",
+    "tiny-lr": "*",
+    "vinyl-buffer": "*",
+    "vinyl-source-stream": "*",
+    "watchify": "*"
+  }
+}

@@ -1,0 +1,78 @@
+@import "variables";
+@import "mixins";
+@import "values";
+@import "base";
+
+
+
+/**
+ * Created by kevin on 12/26/14.
+ */
+body{
+  background: #ff544a;
+}
+
+.navbar{
+//  @include box_shadow;
+  ul{
+//    background-color: green;
+    li{
+      display: inline; list-style: none;
+//      background-color: #FDDB48;
+    }
+  }
+}
+
+.lefty{
+  float: left;
+}
+
+.righty{
+  float: right;
+}
+
+/**
+* Is the center of the page
+**/
+.main-center{
+  height: 90%;
+  background-color: #002132;
+  @include abs-pos;
+}
+
+@for $i from 0 through $plevels {
+  .p-#{$i} {
+    padding: 1rem * ($i * 0.5);
+  }
+
+  .m-#{$i} {
+    margin: 1rem * ($i * 0.5);
+  }
+
+  .mb-#{$i} {
+    margin-bottom: 1rem * ($i * 0.5);
+  }
+
+  .mt-#{$i} {
+    margin-top: 1rem * ($i * 0.5);
+  }
+
+  .mr-#{$i} {
+    margin-right: 1rem * ($i * 0.5);
+  }
+
+  .ml-#{$i} {
+    margin-left: 1rem * ($i * 0.5);
+  }
+}
+
+.footer-bottom{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.page-content{
+  @include abs-pos;
+  overflow-y: scroll;
+}

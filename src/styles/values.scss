@@ -1,0 +1,74 @@
+$zlevels: 5;
+$plevels: 10; /*plevels == mlevels*/
+
+
+.img-overlay{
+	position: relative; 
+}
+
+.text-overlay{
+	position: absolute; 
+   	bottom: 1rem; 
+   	left: 2rem; 
+   	width: auto;
+   	// background: blue; 
+}
+
+.contenthover { padding:20px 20px 10px 20px; }
+.contenthover, .contenthover h3, .contenthover a { color:#fff; }
+.contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.4em; padding:0; }
+.contenthover a.mybutton { display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover { background:#34742d }
+
+//Text Center
+.t-cen{
+	text-align: center;
+}
+
+.b-right{
+	bottom: 4rem; right: -4rem;
+}
+
+.b-left{
+	bottom: 4rem; left: -4rem;
+}
+
+.auto-point{
+  	pointer-events:  auto;
+}
+
+
+
+//@for $i from 0 through $zlevels {
+//  .z-#{$i} {
+//	z-index: $i * 10;
+//  }
+//}
+//
+//@for $i from 1 through 10 {
+//  .p-#{$i} {
+//	padding: 1rem * $i *0.5 ;
+//  }
+//
+//  .m-#{$i} {
+//	margin: 1rem * ($i * 0.5);
+//  }
+//
+//  .mb-#{$i} {
+//	margin-bottom: 1rem * ($i * 0.5);
+//  }
+//
+//  .mt-#{$i} {
+//	margin-top: 1rem * ($i * 0.5);
+//  }
+//
+//  .mr-#{$i} {
+//	margin-right: 1rem * ($i * 0.5);
+//  }
+//
+//  .ml-#{$i} {
+//	margin-left: 1rem * ($i * 0.5);
+//  }
+//}
+//
+//
