@@ -11,7 +11,6 @@ This template should help you get going with your next hackathon project on the 
 
 Features
 --------
----
  - Browserify Built-in
  - Easy Building Process **(Using Gulp)**
  - Sass to CSS integration
@@ -22,7 +21,6 @@ Features
 
 Prerequisites
 -------------
----
  - Node.js & NPM
  - Command Line Tools  
 	 - Mac OS X: Xcode (or OS X 10.9 Mavericks: `xcode-select --install`)
@@ -34,7 +32,6 @@ Prerequisites
 
 Getting Started
 ---------------
----
     # Get the latest snapshot
     $ git clone --depth=1 https://github.com/kivo360/GABS.git yourproject
     $ cd yourproject
