@@ -2,8 +2,9 @@
 
 Gulp Angular Browserify Boilerplate
 ===
+Gulp, Angular and Browserify are all very wonderful tools for the modern hacker. They each make our lives better. Using them together let's us get a lot of stuff done with fewer lines of code.
 
-Gulp, Angular and Browserify are all very wonderful tools for the hacker mind.
+I couldn't find any easy to understand implementations of the 3 of them combined. So I made this.
 
 This template should help you get going with your next hackathon project on the front-end.
 
@@ -41,3 +42,21 @@ Getting Started
     $ gulp
 
 
+Useful Resources
+================
+
+Great Design Resources
+----------------------
+
+ - [Code Guide](http://codeguide.co/) - Standards for developing flexible, durable, and sustainable HTML and CSS.
+ - [Bootsnipp](http://bootsnipp.com/) - Code snippets for Bootstrap.
+ - [UIBox](http://www.uibox.in/) - Curated HTML, CSS, JS, UI components. 
+ - [Bootstrap Zero](http://bootstrapzero.com/) - Free Bootstrap templates themes. 
+ - [Google Bootstrap](http://todc.github.io/todc-bootstrap/) - Google-styled for Bootstrap.
+ - [Font Awesome Icons](http://fortawesome.github.io/Font-Awesome/icons/) - It's already part of the Hackathon Starter, so use this page as a reference. 
+ - [Colors](http://clrs.cc/) - A nicer color palette for the web.
+ - [Creative Button Styles](http://tympanus.net/Development/CreativeButtons/) - awesome button styles.
+ - [Creative Link Effects](http://tympanus.net/Development/CreativeLinkEffects/) - Beautiful link effects in CSS. Medium
+ - [Scroll Effect](http://codepen.io/andreasstorm/pen/pyjEh) - Fade in/out header background image as you scroll.
+ - [GeoPattern](https://github.com/btmills/geopattern) - SVG background pattern generator. 
+ - [Trianglify](https://github.com/qrohlf/trianglify) - SVG low-poly background pattern generator.
